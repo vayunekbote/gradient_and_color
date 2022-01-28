@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+nav {
+  box-sizing: border-box;
+  background-color: #e7e7e7;
+  box-shadow: 0 2px 0.6em #b9b9b9b9;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav h4 {
+  float: left;
+  padding: 15px;
+  margin-left: 140px;
+  font-size: 1.3em;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 150px;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 30px;
+  padding: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+}
+
+.active {
+  background-color: rgba(179, 179, 179, 0.842);
+}
+
+#main {
+  display: grid;
+  place-items: center;
+  height: 90vh;
+  background-color: "";
+}
+
+.container {
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  background-color: #00000070;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+button {
+  padding: 10px;
+  width: 68px;
+  margin-top: 10px;
+  border-radius: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0.2px solid white;
+  box-shadow: 0 0 0.4em white;
+  transition: box-shadow 0.5s ease;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.144);
+  box-shadow: 0 0 0.7em black;
+}
+
+/*CSS for gradient.html*/
+
+#accto1 {
+  color: #fff;
+}
+
+#btn1 {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  width: 79px;
+}
